@@ -17,6 +17,17 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+/* nav {
+  padding: 5px 0 40px;
+} */
+#navbar {
+  position: sticky;
+  top: 0;
+}
+.navbar-shrink {
+  background: rgba(8, 221, 8, 0.8);
+  backdrop-filter: blur(10px);
+}
 .THreeFRends {
   display: flex;
   align-items: center;
@@ -39,6 +50,13 @@
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 500;
+}
+.mode_btn_image {
+  width: 48px;
+}
+.box-logo {
+  display: flex;
+  gap: 20px;
 }
 .menu_ul_li-link:hover {
   background-color: #ffff;
@@ -702,6 +720,11 @@ label {
   }
 }
 @media (max-width: 660px) {
+  .THreeFRends {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
   .WEB_group {
     margin-top: 350px;
     display: flex;
