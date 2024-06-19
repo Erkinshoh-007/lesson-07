@@ -23,10 +23,12 @@
 #navbar {
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 .navbar-shrink {
   background: rgba(8, 221, 8, 0.8);
   backdrop-filter: blur(10px);
+  z-index: 10;
 }
 .THreeFRends {
   display: flex;
@@ -629,6 +631,9 @@ label {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
+  }
+  .Testimonials {
+    display: none !important;
   }
 }
 @media (max-width: 1110px) {
